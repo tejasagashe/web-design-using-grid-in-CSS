@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container{
+
+    height: 80vh;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.box{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box1{
+    grid-row-start: 1;
+    grid-row-end: 15;
+    background-image: url(./cat-3169476_640.jpg);
+}
+
+.box2{
+    grid-row-start: 1;
+    grid-row-end:8 ;
+    background-image: url(./swan-122983_640.jpg);
+}
+
+.box3{
+    grid-row-start: 1;
+    grid-row-end:8 ;
+    background-image: url(./water-747618_640.jpg);
+}
+
+.box4{
+    grid-row-start: 8;
+    grid-row-end:15 ;
+    background-image: url(./rain-4421893_640.jpg);
+}
+
+.box5{
+    grid-row-start: 8;
+    grid-row-end:15 ;
+    background-image: url(./mountains-5260303_640.jpg);
+}
+
+.box6{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 15;
+    grid-row-end:25 ;
+    background-image: url(./iceland-5104376_1280.jpg);
+}
+
+.box7{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 15;
+    grid-row-end:25 ;
+    background-image: url(./castelmezzano-1979546_1280.jpg);
+}
